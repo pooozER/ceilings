@@ -20,7 +20,7 @@ app.post('/', urlencodedParser, function (req, res) {
         to: 'antoivans@gmail.com',
         subject: 'Новый клиент',
         text: `
-        Имя: ${req.body.name} 
+        Имя: ${req.body.name}
         Номер телефона: ${req.body.number}`
     }
     mailer(message)
