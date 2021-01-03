@@ -6,12 +6,12 @@ const transporter = nodemailer.createTransport(
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: 'antoivansss@mail.ru',
-            pass: '79udunerDdd'
+            user: 'ENTER MAIL THERE',
+            pass: 'ENTER PASSWORD THERE'
         }
     },
     {
-        from: 'Почтовый бот <antoivansss@mail.ru>'
+        from: 'Почтовый бот <ENTER MAIL THERE>'
     })
 
 const mailer = message => {

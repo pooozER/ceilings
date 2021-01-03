@@ -6,9 +6,6 @@ window.onload = function () {
     });
 };
 
-
-// masked_input_1.4-min.js
-// angelwatt.com/coding/masked_input.php
 (function (a) {
     a.MaskedInput = function (f) {
         if (!f || !f.elm || !f.format) {
