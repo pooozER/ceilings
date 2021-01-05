@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 app.post('/', urlencodedParser, function (req, res) {
     if (!req.body) return res.sendStatus(400);
     const message = {
-        to: 'ENTER RECIPIENT MAIL',
+        to: 'potolkivitebsk@mail.ru',
         subject: 'Новый клиент',
         text: `
         Имя: ${req.body.name}
